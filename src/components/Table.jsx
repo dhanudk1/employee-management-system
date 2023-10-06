@@ -6,22 +6,28 @@ const Table = (props) => {
 
   return (
     <div className="container">
-      <table className="table table-bordered">
-        <thead>
-          <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>City</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          {users.map((user) => (
-            <TableRow user={user} loadUser={loadUser} deleteUser={deleteUser} />
-          ))}
-        </tbody>
-      </table>
+      <div className="table-responsive">
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>City</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {users.map((user) => (
+              <TableRow
+                user={user}
+                loadUser={loadUser}
+                deleteUser={deleteUser}
+              />
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
