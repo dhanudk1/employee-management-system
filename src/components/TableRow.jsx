@@ -17,7 +17,7 @@ const TableRow = (props) => {
           <i className="fa fa-trash"></i>
         </button>
         <button
-          className="btn btn-primary mt-sm-0 mt-2"
+          className="btn btn-primary mt-md-0 mt-2"
           onClick={() => loadUser(user)}
         >
           <i className="fa fa-pencil"></i>
