@@ -43,7 +43,7 @@ const Login = () => {
                     onChange={(e) => setName(e.target.value)}
                   />
                   <input
-                    type="text"
+                    type="password"
                     className="form-control mt-2"
                     placeholder="Password"
                     value={password}
