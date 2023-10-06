@@ -28,6 +28,7 @@ const Albums = () => {
       return album.title.toLowerCase().match(search.toLowerCase());
     });
     setFilteredAlbums(copy);
+    // eslint-disable-next-line
   }, [search]);
 
   return (
