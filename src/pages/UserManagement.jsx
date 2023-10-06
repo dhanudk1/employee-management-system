@@ -68,7 +68,7 @@ const UserManagement = () => {
   return (
     <div className="container">
       <div className="row justify-content-center my-5">
-        <div className="col-7">
+        <div className="col-sm-12 col-md-8 col-lg-6">
           <div className="card">
             <div className="card-header">
               <h4>

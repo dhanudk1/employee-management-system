@@ -68,19 +68,19 @@ const Users = () => {
                     <td>{user.company.name}</td>
                     <td>
                       <button
-                        className="btn btn-success ms-2"
+                        className="btn btn-success mt-sm-0 mt-2"
                         onClick={() => navigate(`/post/${user.id}`)}
                       >
                         POSTS
                       </button>
                       <button
-                        className="btn btn-dark ms-2"
+                        className="btn btn-dark mt-sm-0 mt-2"
                         onClick={() => navigate(`/album/${user.id}`)}
                       >
                         ALBUM
                       </button>
                       <button
-                        className="btn btn-danger ms-2"
+                        className="btn btn-danger mt-sm-0 mt-2"
                         onClick={() => navigate(`/todo/${user.id}`)}
                       >
                         TODO
