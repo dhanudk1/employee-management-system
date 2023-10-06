@@ -28,7 +28,7 @@ const Login = () => {
         className="row justify-content-center align-items-center"
         style={{ height: "calc(100vh - 152px)" }}
       >
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-0">
+        <div className="col-xs-12 col-sm-12 col-md-8 col-lg-6">
           <div className="card">
             <div className="card-body">
               <div className="card-title">
