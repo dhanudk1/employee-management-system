@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import logo from "./logo.svg";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import UserManagement from "./pages/UserManagement";
 import Navbar from "./components/Navbar";
 import Albums from "./pages/Albums";
@@ -15,7 +14,7 @@ import ProtectedRoutes from "./components/ProtectedRoutes";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route element={<PublicRoutes />}>
@@ -31,7 +30,7 @@ function App() {
             <Route path="/user" element={<Users />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
